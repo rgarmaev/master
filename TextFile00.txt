@@ -8,4 +8,4 @@
 
 \f0\i\fs26 \cf2 \expnd0\expndtw0\kerning0
 TextFile00.txt
-Echo var else 
+Echo var else ok

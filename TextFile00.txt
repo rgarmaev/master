@@ -7,4 +7,5 @@
 \pard\pardeftab720\sa368\partightenfactor0
 
 \f0\i\fs26 \cf2 \expnd0\expndtw0\kerning0
-TextFile00.txt}
+TextFile00.txt
+Echo var else 

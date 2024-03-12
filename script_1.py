@@ -3,7 +3,7 @@ c= 0
 total_c = 0
 
 for i in range(num_tickets):
-    age = int(input(f"Введите возраст посетителя {i + 1}: "))
+    age = int(input(f"Введите возраст {i + 1}: "))
     if age < 18:
         c = 0
     elif 18 <= age < 25:
@@ -13,6 +13,6 @@ for i in range(num_tickets):
     total_c += c
 
 if num_tickets > 3:
-    total_c *= 0.9  # Применяем 10% скидку, если билетов больше трёх
+    total_c *= 0.9  
 
-print(f"Общая стоимость: {total_c} руб.")
+print(f"Общая стоимость: {total_c}")

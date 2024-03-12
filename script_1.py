@@ -1,6 +1,6 @@
 num_tickets = int(input("Введите количество билетов: "))
-total_c = 0
 c= 0
+total_c = 0
 
 for i in range(num_tickets):
     age = int(input(f"Введите возраст посетителя {i + 1}: "))

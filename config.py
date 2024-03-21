@@ -1,0 +1,2 @@
+TOKEN = '7098153792:AAHGznVncy4XQD7jarw3YoNhqfD3TFY_5Xo'
+api_key = 'tSgC70cAftKrWDKTYlDBpNl7VZtUqm3J'

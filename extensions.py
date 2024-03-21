@@ -8,7 +8,7 @@ class APIException(Exception):
 
 class CurrencyConverter:
     @staticmethod
-    def get_price(base, symbols, amount):  # Добавляем третий аргумент - amount
+    def get_price(base, symbols, amount):  
         url = "https://api.apilayer.com/exchangerates_data/latest"
         params = {
             'base': base,
@@ -28,7 +28,7 @@ class CurrencyConverter:
         if 'error' in data:
             raise APIException(data['error']['info'])
 
-        # Рассчитываем конвертированную сумму
+       
         exchange_rate = data['rates'][symbols]
         converted_amount = amount * exchange_rate
 

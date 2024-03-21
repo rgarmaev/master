@@ -1,5 +1,5 @@
 import requests
-from bot_telegram.config import api_key
+from config import api_key
 
 
 class APIException(Exception):
